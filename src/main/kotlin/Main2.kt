@@ -1,5 +1,3 @@
-package example.mordant
-
 import com.github.ajalt.mordant.animation.progressAnimation
 import com.github.ajalt.mordant.rendering.TextColors.brightBlue
 import com.github.ajalt.mordant.terminal.Terminal

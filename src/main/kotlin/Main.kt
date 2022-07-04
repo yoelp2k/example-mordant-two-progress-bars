@@ -1,5 +1,3 @@
-package example.mordant
-
 import com.github.ajalt.mordant.animation.progressAnimation
 import com.github.ajalt.mordant.rendering.TextColors.brightBlue
 import com.github.ajalt.mordant.terminal.Terminal
@@ -37,7 +35,8 @@ fun main() {
     // Update the progress as the download progresses
     progress0.updateTotal(3_000_000_000)
 
-    repeat(200) {
+    repeat(200)
+    {
         progress0.advance(15_000_000)
         Thread.sleep(100)
     }
